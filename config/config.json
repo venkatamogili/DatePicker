@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "datepickerexm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/datepickerexm/DatepickerexmWebPart.js",
+          "manifest": "./src/webparts/datepickerexm/DatepickerexmWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DatepickerexmWebPartStrings": "lib/webparts/datepickerexm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
